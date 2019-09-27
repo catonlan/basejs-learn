@@ -41,3 +41,26 @@ console.log(c);
 console.log(typeof c); // 123 string
 
 
+
+
+
+var d = false; //boolean --> string
+    d = String(d);
+
+    console.log(d);
+    console.log(typeof d);
+
+
+var e = null; //null --> string 
+    e = String(e);
+    console.log(e);
+    console.log(typeof e);
+
+
+
+    
+var uf = undefined; //undefined --> string 
+    uf = String(uf);
+    console.log(uf);
+    console.log(typeof uf);
+    
