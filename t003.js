@@ -54,3 +54,37 @@ console.log(un);         //undefined --> NaN
 console.log(typeof un);  // number
     
     
+
+
+//method 2 (如果是含有非数字的字符串， 想取出整数 或 浮点数)
+
+
+
+var l = "123pc";
+    l = parseInt(l);
+console.log(l);             //取出整数123
+console.log(typeof l);      // number
+    
+    
+
+
+var j = "2343423.32432px";
+    j = parseFloat(j);
+console.log(j);         //取出小数（浮点数)  2343423.32432
+console.log(typeof j);   // number
+    
+
+var lj = "342.09302c";
+    lj = parseInt(lj);         
+console.log(lj);    //用 parseInt 取整  342
+console.log(typeof lj);  // number
+    
+    
+//非string 用 parseInt 或 parseFloat : 先转成string，然后再操作
+
+var z = true;
+    z = parseInt(z);
+console.log(z);     // string "ture" --> NaN 
+console.log(typeof z);  // number
+    
+    
