@@ -147,7 +147,7 @@ myClick('btn10', function() {
 // 返回#bj的文本值
 
 myClick('btn11', function() {
-  var uren = document.getElementById('bj');
+  var bj = document.getElementById('bj');
   alert(bj.innerHTML);
 
   //alert(bj.innerText);
