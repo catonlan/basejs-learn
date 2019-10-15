@@ -1,0 +1,17 @@
+/*css*/
+
+#box1 {
+  width: 200px;
+  height: 100px;
+  background-color: #ed3;
+}
+
+#s00 {
+  background-color: greenyellow;
+}
+
+body {
+  background-color: pink;
+  width: 100%;
+  height:500px;
+}
