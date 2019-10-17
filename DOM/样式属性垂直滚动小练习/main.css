@@ -1,0 +1,8 @@
+/*css*/
+
+#info {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  background-color: pink;
+}
