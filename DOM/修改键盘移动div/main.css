@@ -1,0 +1,8 @@
+/*css练习： 键盘移动div*/
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #deef;
+  position: absolute;
+}
